@@ -1,0 +1,19 @@
+git --version
+//to know version
+git config --global user.name"yourname"
+//to configure username
+git config --global user.email<ur email address> 
+////to configure email
+git config --list
+//to check global configuration
+
+//Basic Git command
+git init
+git status
+git add .
+git commit -m "first commit"
+get log --oneline
+
+git remote add origin https://github.com/sharmilathimmappa/weblab.git
+git push -u origin master
+git clone https://github.com/sharmilathimmappa/weblab.git
